@@ -1,6 +1,6 @@
 {
-  "name": "svelte-tailwind",
-  "version": "1.2.0",
+  "name": "rock-paper-scissors-game",
+  "version": "1.0.0",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
     "dev": "webpack-dev-server --content-base public"
@@ -25,5 +25,8 @@
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "svelte-simple-modal": "^0.4.2"
   }
 }
