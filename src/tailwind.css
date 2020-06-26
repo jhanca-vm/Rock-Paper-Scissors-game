@@ -5,3 +5,21 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.winner {
+  box-shadow: rgba(255, 255, 255, 0.04) 0px 0px 0px 40px,
+    rgba(255, 255, 255, 0.04) 0px 0px 0px 80px,
+    rgba(255, 255, 255, 0.02) 0px 0px 0px 120px;
+}
+
+@media screen and (max-width: 1023px) {
+  .play {
+    grid-template-rows: auto minmax(11rem, 1fr);
+  }
+}
+@media screen and (max-width: 767px) {
+  .winner {
+    box-shadow: 0 0 0 16px hsla(0, 0%, 100%, 0.04), 0 0 0 40px hsla(0, 0%, 100%, 0.04),
+      0 0 0 62px hsla(0, 0%, 100%, 0.02);
+  }
+}
