@@ -26,8 +26,7 @@
 
 <div
   on:click="{start}"
-  class="bg-{name} border-{name} mb-8 p-{p} rounded-full border-b-{b} cursor-pointer
-  shadow-2xl"
+  class="bg-{name} border-{name} p-{p} rounded-full border-b-{b} cursor-pointer shadow-2xl"
 >
   <figure
     class="flex border-gray-500 border-opacity-50 border-t-{b} items-center justify-center

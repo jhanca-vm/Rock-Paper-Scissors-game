@@ -1,5 +1,29 @@
 module.exports = {
-  purge: false,
+  purge: {
+    content: ['./public/*.html', './src/**/*.svelte'],
+    options: {
+      whitelist: [
+        'w-16',
+        'w-28',
+        'w-36',
+        'w-56',
+        'h-36',
+        'h-56',
+        'p-5',
+        'p-8',
+        'border-t-9',
+        'border-b-9',
+        'border-t-12',
+        'border-b-12',
+        'bg-rock',
+        'bg-paper',
+        'bg-scissors',
+        'border-rock',
+        'border-paper',
+        'border-scissors',
+      ],
+    },
+  },
   theme: {
     extend: {
       backgroundColor: {
